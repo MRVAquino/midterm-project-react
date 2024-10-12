@@ -1,0 +1,74 @@
+body {
+    background-color: #041333; /* Dark background */
+    color: #f4dc78; /* Light text color */
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 0; /* Reset default margin */
+    padding: 20px; /* Add padding around the body */
+  }
+  
+  h1, h2 {
+    color: #4c9cd4; /* Header color */
+    text-align: center; /* Center headers */
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows buttons to wrap */
+    justify-content: center; /* Centers buttons horizontally */
+    margin: 20px; /* Spacing around the buttons */
+  }
+  
+  button {
+    background-color: #5281a3; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    margin: 10px; /* Margin between buttons */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  button:hover {
+    background-color: #3a4c6c; /* Darker background on hover */
+  }
+  
+  table {
+    width: 80%; /* Table width */
+    margin: 20px auto; /* Center table */
+    border-collapse: collapse; /* Collapse borders */
+  }
+  
+  table, th, td {
+    border: 1px solid #8ca9bc; /* Table border color */
+  }
+  
+  th, td {
+    padding: 10px; /* Cell padding */
+    text-align: center; /* Center text in cells */
+  }
+  
+  th {
+    background-color: #5281a3; /* Header background color */
+    color: white; /* Header text color */
+  }
+  
+  td {
+    background-color: #041333; /* Data cell background color */
+    color: #f4dc78; /* Data cell text color */
+  }
+  
+  input, select {
+    padding: 10px; /* Input padding */
+    margin: 5px; /* Input margin */
+    width: 80%; /* Input width */
+  }
+  
+  input[type="number"] {
+    width: 50%; /* Narrower width for number inputs */
+  }
+  
+  p {
+    text-align: center; /* Center paragraph text */
+    color: #f4dc78; /* Paragraph text color */
+  }
+  

@@ -1,0 +1,71 @@
+/* Container for the entire component */
+.display-items-category-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fffdd0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: grey;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+/* Category selection */
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.display-message {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+label {
+    margin-right: 10px;
+    color: #000000; 
+    font-size: 1rem;
+}
+
+/* Back to Dashboard button */
+.back-dashboard-button {
+    margin-top: 20px;
+    background-color: grey;
+    color: white;
+}
+
+.back-dashboard-button-button:hover {
+    background-color: darkgrey;
+}

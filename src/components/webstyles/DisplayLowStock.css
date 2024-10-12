@@ -1,0 +1,52 @@
+/* Centering the display container */
+.display-low-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    background-color: #fffdd0; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.low-stock-table {
+    width: 100%;
+    max-width: 800px; 
+    margin-top: 20px;
+    border-collapse: collapse; 
+}
+ 
+.low-stock-table td {
+    border: 1px solid #ddd; 
+    padding: 12px; 
+    text-align: center; 
+}
+
+.low-stock-table th {
+    background-color: grey; 
+    color: white; 
+}
+
+.low-stock-table td {
+    background-color: #f9f9f9; 
+}
+
+.back-dashboard-button {
+    margin-top: 20px; 
+    padding: 10px 20px;
+    background-color: grey; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.low-message {
+    color: black;
+}
+
+.back-button:hover {
+    background-color: darkgrey; 
+}

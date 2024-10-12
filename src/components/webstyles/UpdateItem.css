@@ -1,0 +1,62 @@
+   
+  .update-item-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #fffdd0;
+  }
+  
+  .update-item-container {
+    background-color: rgb(122, 107, 139);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+    text-align: center;
+  }
+
+.form {
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    max-width: 400px; 
+}
+
+.input, .select {
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+}
+
+.update-item-button {
+  padding: 10px; 
+  background-color: #000000; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+
+
+.update-item-button:hover {
+  background-color: #333333; 
+}
+
+.update-message {
+    margin-top: 10px;
+    color: #000000; 
+}
+
+.back-dashboard-button {
+  background-color: grey; 
+  color: white; 
+  margin-top: 20px;
+}
+
+.back-dashboard-button:hover {
+  background-color: darkgrey; 
+}

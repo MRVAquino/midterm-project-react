@@ -1,0 +1,99 @@
+/* Style for the main container */
+.search-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fffdd0;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.search-item-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-item-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-item-button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-item-button:hover {
+    background-color: #333333;
+}
+
+.item-details {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(122, 107, 139);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    color: #000000;
+}
+
+/* Table Styles */
+.item-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.item-details-table th, .item-details-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.item-details-table th {
+    background-color: #2b3846;
+    color: white;
+    font-weight: bold;
+}
+
+.item-details-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.item-details-table tr:hover {
+    background-color: #ddd;
+}
+
+.back-dashboard-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-dashboard-button:hover {
+    background-color: darkgrey;
+}

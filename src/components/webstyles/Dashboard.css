@@ -1,0 +1,27 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #fffdd0; 
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2b3846;
+    color: rgb(155, 131, 131);
+}
+
+button:hover {
+    background-color: #24303d;
+}
